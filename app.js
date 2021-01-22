@@ -1,6 +1,5 @@
 const http = require('http');
 const fs = require('fs');
-const about = require('./WWW/about.json')
 
 http.createServer((request, response) => {
 
