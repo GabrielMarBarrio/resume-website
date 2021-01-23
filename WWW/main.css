@@ -75,7 +75,7 @@ body {
 }
 
 @media (min-width: 100px) {
-    .bd-placeholder-img-lg {
+    h3 {
         font-size: 2.5rem;
     }
     #background_wrap {
