@@ -9,16 +9,11 @@ http.createServer((request, response) => {
 
         fs.readFile(file, (err, data) => {
         	
-        	if(request.url == '/about'){
-        		response.writeHead(200, {"Content-Type": "application/json"});
-        		response.write(JSON.stringify(about));
-        	}else if(err){
+            if(err){
                 response.writeHead(404, {"Content-Type": "text/html"});
                 response.write("NOT FOUND");
             }else{
-                if(file.split('.').pop() == 'json'){
-                    response.writeHead(200, {"Content-Type": "application/json"});
-                }else if(file.split('.').pop() == 'png'){
+                if(file.split('.').pop() == 'png'){
                     response.writeHead(200, {"Content-Type": "image/jpg"}); 
                 }else if(file.split('.').pop() == 'pdf'){
                     response.writeHead(200, {"Content-Type": "application/pdf"}); 
