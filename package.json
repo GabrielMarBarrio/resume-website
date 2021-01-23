@@ -1,0 +1,19 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "description": "Simple resume website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMarBarrio/resume-website.git"
+  },
+  "author": "Gabriel Mar Barrio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielMarBarrio/resume-website/issues"
+  },
+  "homepage": "https://github.com/GabrielMarBarrio/resume-website#readme"
+}
