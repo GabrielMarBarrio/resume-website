@@ -69,6 +69,9 @@ body {
     .lead {
         font-size: 80%;
     }
+    .mobile-icon {
+        font-size: 120%;
+    }
     .rounded-circle {
         box-shadow: 5px 5px 5px rgb(53, 53, 54);
         width: 120px;
